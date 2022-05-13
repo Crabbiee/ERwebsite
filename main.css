@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+#center {
+    text-align: center;
+}
+
+.background {
+    background-image: url(image/horsealt.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.textbox {
+    color: rgb(235, 233, 162);
+    background-color: rgba(71, 61, 139, 0.151);
+    font-family: 'optimus princeps', cursive;
+    border: 5px;
+    border-style: solid;
+    border-width: 2px;
+    width: 35%;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.h1 {
+    color:rgb(221, 235, 101);
+    font-family: 'Special Elite', cursive;
+    text-decoration: underline;
+}
+
+.h2 {
+    color:rgb(221, 235, 101);
+    font-family: 'Special Elite', cursive;
+    text-decoration: underline;
+}
+
+.h4 {
+    color: rgb(221, 235, 101);
+    font-family: 'Special Elite', cursive;
+    text-decoration: underline;
+}
+
+.imgsize {
+    color: rgb(235, 233, 162);
+    background-color: rgba(71, 61, 139, 0.151);
+    border: 5px;
+    border-style: solid;
+    border-width: 2px;
+    width: 35%;
+    height: auto;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.talismansize {
+    width: 15%;
+    height: auto;
+
+}
+
+.ghostsize {
+    width: 30%;
+    height: auto;
+}
+
+.onionsize {
+    width: 70%;
+    height: auto;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    color: rgb(235, 233, 162);
+    background-color: rgba(71, 61, 139, 0.151);
+    border: 5px;
+    border-style: solid;
+    border-width: 2px;
+    width: 35%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbuttons {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background: rgba(71, 61, 139, 0.527);
+    color: rgb(221, 235, 101);
+    border-radius: 8px;
+    padding: 3px 3px 3px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+a :hover{
+    color:rgb(145, 6, 6);
+    font-weight: bold;
+    transform: translateY(-2px);
+}
+
+#extralink {
+    text-decoration: none;
+    color: burlywood;
+}
